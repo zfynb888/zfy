@@ -8,7 +8,7 @@ name: "kjk-test-mod"
 author: "kjk"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "kjk.entry"
 
 #the mod description as seen in the mod dialog
 description: "kjk-test-mod."
