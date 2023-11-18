@@ -7,18 +7,24 @@ import mindustry.content.*;
 
 public class ut extends UnitTypes{
     public static void load(){
-    
-    alpha.speed = 8f;
+
+    alpha.health = 300f;
     alpha.itemCapacity = 555;
-    alpha.weapons.get(0).bullet.buildingDamageMultiplier = 1.0f;
+    alpha.buildSpeed = 1f;
+    alpha.drag = 0.1f;
+    alpha.weapons.get(0).bullet.buildingDamageMultiplier = 0.2f;
 
-    beta.speed = 8f;
+    beta.health = 340f;
     beta.itemCapacity = 555;
-    beta.weapons.get(0).bullet.buildingDamageMultiplier = 1.0f;
+    beta.buildSpeed = 1.5f;
+    beta.drag = 0.1f;
+    beta.weapons.get(0).bullet.buildingDamageMultiplier = 0.2f;
 
-    gamma.speed = 8f;
+    gamma.health = 440f;
     gamma.itemCapacity = 555;
-    gamma.weapons.get(0).bullet.buildingDamageMultiplier = 1.0f;
+    gamma.buildSpeed = 2f;
+    gamma.drag = 0.1f;
+    gamma.weapons.get(0).bullet.buildingDamageMultiplier = 0.2f;
         
     }
     
