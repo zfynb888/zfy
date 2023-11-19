@@ -8,7 +8,6 @@ import mindustry.content.*;
 public class ut1 extends Blocks{
     public static void load(){
     
-    super.load();
     conveyor.displayedSpeed *= 2;
     conveyor.speed *= 2;
     
