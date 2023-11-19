@@ -5,7 +5,7 @@ import arc.util.*;
 import mindustry.*;
 import mindustry.content.*;
 
-public class ut1 extends Blocks{
+public class ut1 {
 public static Blocks conveyor;
     public static void load(){
     
