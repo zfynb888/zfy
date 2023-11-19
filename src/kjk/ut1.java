@@ -6,15 +6,18 @@ import mindustry.*;
 import mindustry.content.*;
 
 public class ut1 extends Blocks{
+public static Blocks conveyor;
     public static void load(){
-
-    public static Blocks conveyor,titaniumConveyor;
     
-    conveyor.displayedSpeed *= 2;
-    conveyor.speed *= 2;
+    conveyor = new Conveyor("conveyor"){{
+            requirements(Category.distribution, with(Items.copper, 1));
+            health = 45;
+            speed = 0.03f;
+            displayedSpeed = 4.2f;
+            buildCostMultiplier = 2f;
+            researchCost = with(Items.copper, 5);
+        }};
     
-    titaniumConveyor.displayedSpeed *= 2;
-    titaniumConveyor.speed *= 2;
 
     
         
