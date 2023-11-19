@@ -24,7 +24,7 @@ public class ut extends UnitTypes{
     beta.drag = 0.1f;
     beta.weapons.get(0).bullet.speed = 6f;
     beta.weapons.get(0).bullet.damage = 22.0f;
-    beta.weapons.get(0).bullet.buildingDamageMultiplier = 0.2f;
+    beta.weapons.get(0).bullet.buildingDamageMultiplier = 0.3f;
 
     gamma.health = 440f;
     gamma.itemCapacity = 555;
@@ -33,7 +33,7 @@ public class ut extends UnitTypes{
     gamma.drag = 0.1f;
     gamma.weapons.get(0).bullet.speed = 7f;
     gamma.weapons.get(0).bullet.damage = 22.0f;
-    gamma.weapons.get(0).bullet.buildingDamageMultiplier = 0.2f;
+    gamma.weapons.get(0).bullet.buildingDamageMultiplier = 0.4f;
         
     }
     
