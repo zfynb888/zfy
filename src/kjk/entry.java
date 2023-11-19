@@ -32,7 +32,7 @@ public class entry extends Mod{
     public void loadContent(){
         Log.info("Loading some example content.");
         ut.load();
-        ut1.load();
+        Blocks.conveyor.speed=10;
     }
 
 }
