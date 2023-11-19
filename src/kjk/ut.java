@@ -7,6 +7,7 @@ import mindustry.content.*;
 
 public class ut extends UnitTypes{
     public static void load(){
+    super.load();
 
     alpha.health = 300f;
     alpha.itemCapacity = 555;
